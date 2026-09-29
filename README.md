@@ -30,7 +30,7 @@ English summary at the bottom.
 
 在你的 DSH 会话（创造模式 / danger-full-access）里对 agent 说：
 
-> 从 `https://github.com/<你的用户名>/dsh-quota-float` 安装插件 dsh-quota-float 并启用。
+> 从 `https://github.com/Zhan-ZhangZ/dsh-quota-float` 安装插件 dsh-quota-float 并启用。
 
 agent 会调用 `plugin_manager install_bundle` 完成安装（等价于 `pnpm add dsh-quota-float@github:...` + 启用 bundle）。
 
