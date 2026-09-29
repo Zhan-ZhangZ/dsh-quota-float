@@ -1,0 +1,7 @@
+# dsh-quota-float bundle patch: one Loader row for the quota float plugin.
+# Pure client-side UI plugin — the host half exports an empty apply; the
+# browser half ships via exports["./client"] and registers the floating
+# overlay widget plus its Settings section.
+- insert:
+    - id: quota-float
+      name: 'dsh-quota-float'
